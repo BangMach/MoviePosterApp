@@ -99,9 +99,11 @@
 		992B189922F9A7E5003F6E4D /* MoviePosterApp */ = {
 			isa = PBXGroup;
 			children = (
+				992B18CE22F9A931003F6E4D /* Controller */,
+				992B18CD22F9A90B003F6E4D /* ViewModel */,
+				992B18CC22F9A901003F6E4D /* View */,
+				992B18CB22F9A8E5003F6E4D /* Model */,
 				992B189A22F9A7E5003F6E4D /* AppDelegate.swift */,
-				992B189C22F9A7E5003F6E4D /* ViewController.swift */,
-				992B189E22F9A7E5003F6E4D /* Main.storyboard */,
 				992B18A422F9A7E9003F6E4D /* Assets.xcassets */,
 				992B18A622F9A7E9003F6E4D /* LaunchScreen.storyboard */,
 				992B18A922F9A7E9003F6E4D /* Info.plist */,
@@ -126,6 +128,36 @@
 				992B18BF22F9A7EA003F6E4D /* Info.plist */,
 			);
 			path = MoviePosterAppUITests;
+			sourceTree = "<group>";
+		};
+		992B18CB22F9A8E5003F6E4D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		992B18CC22F9A901003F6E4D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				992B189E22F9A7E5003F6E4D /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		992B18CD22F9A90B003F6E4D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		992B18CE22F9A931003F6E4D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				992B189C22F9A7E5003F6E4D /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
