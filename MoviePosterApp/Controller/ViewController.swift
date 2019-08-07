@@ -28,6 +28,8 @@ class ViewController: UIViewController {
         runningTime.text = "Running Time: " + String (movie.detail.runningTime) + "mins"
         
     }
+    // enable some user interaction
+    
     //func loadMovie()
     //connections to model
     var movie=Movie.avenger
