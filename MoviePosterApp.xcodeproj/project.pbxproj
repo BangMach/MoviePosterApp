@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9929FB4E22FDCBBC00F82E9D /* CustomDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9929FB4D22FDCBBC00F82E9D /* CustomDate.swift */; };
+		992A1B8822FC5209000EEA00 /* Constraint.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 992A1B8722FC5209000EEA00 /* Constraint.storyboard */; };
 		992B189B22F9A7E5003F6E4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992B189A22F9A7E5003F6E4D /* AppDelegate.swift */; };
 		992B189D22F9A7E5003F6E4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992B189C22F9A7E5003F6E4D /* ViewController.swift */; };
 		992B18A022F9A7E5003F6E4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 992B189E22F9A7E5003F6E4D /* Main.storyboard */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9929FB4D22FDCBBC00F82E9D /* CustomDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDate.swift; sourceTree = "<group>"; };
+		992A1B8722FC5209000EEA00 /* Constraint.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Constraint.storyboard; sourceTree = "<group>"; };
 		992B189722F9A7E5003F6E4D /* MoviePosterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoviePosterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		992B189A22F9A7E5003F6E4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		992B189C22F9A7E5003F6E4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -136,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				992B18CF22F9B67F003F6E4D /* Movie.swift */,
+				9929FB4D22FDCBBC00F82E9D /* CustomDate.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -144,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				992B189E22F9A7E5003F6E4D /* Main.storyboard */,
+				992A1B8722FC5209000EEA00 /* Constraint.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -268,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				992B18A822F9A7E9003F6E4D /* LaunchScreen.storyboard in Resources */,
+				992A1B8822FC5209000EEA00 /* Constraint.storyboard in Resources */,
 				992B18A522F9A7E9003F6E4D /* Assets.xcassets in Resources */,
 				992B18A022F9A7E5003F6E4D /* Main.storyboard in Resources */,
 			);
@@ -297,6 +304,7 @@
 				992B189D22F9A7E5003F6E4D /* ViewController.swift in Sources */,
 				992B18A322F9A7E5003F6E4D /* MoviePosterApp.xcdatamodeld in Sources */,
 				992B18D022F9B67F003F6E4D /* Movie.swift in Sources */,
+				9929FB4E22FDCBBC00F82E9D /* CustomDate.swift in Sources */,
 				992B189B22F9A7E5003F6E4D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
