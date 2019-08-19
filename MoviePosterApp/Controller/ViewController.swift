@@ -7,12 +7,12 @@
 //
 
 import UIKit
-
 class ViewController: UIViewController {
 
     @IBOutlet weak var movieTitle: UILabel!
     @IBOutlet weak var poster: UIImageView!
     @IBOutlet weak var runningTime: UILabel!
+   
     @IBAction func btChange(_ sender: Any) {
         if movieTitle.text == "Avenger:Endgame" {
             movie=Movie.yourName
@@ -28,6 +28,7 @@ class ViewController: UIViewController {
         runningTime.text = "Running Time: " + String (movie.detail.runningTime) + "mins"
         
     }
+    
     // enable some user interaction
     
     //func loadMovie()
